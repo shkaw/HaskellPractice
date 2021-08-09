@@ -1,0 +1,7 @@
+myIf True thenFunc elseFunc = thenFun
+myIf False thenFun elseFunc = elseFunc
+
+main = 
+	let x = 5
+	in print $ myIf (x == 5) "is five" "is not five"
+
